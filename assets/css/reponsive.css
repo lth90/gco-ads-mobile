@@ -1,0 +1,171 @@
+
+@media (min-width: 576px) {
+	.container {
+	    max-width: 540px;
+	}
+
+	.login-form .bottom-form {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.art-digital-marketing .banner-image {
+		margin: 0 -5px 0 -25px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+	    max-width: 720px;
+	}
+
+	.services-box {
+	    grid-template-columns: 1fr 1fr;
+	}
+
+	.art-overall-marketing .services-box,
+	.art-choose-us .services-box {
+	    grid-template-columns: 1fr;
+	}
+
+	.projects-box {
+		display: flex;
+		margin: 0 -15px;
+	}
+	.projects-box .item {
+		width: 33.3333%;
+		padding: 0 15px;
+	}
+
+	.art-digital-marketing .banner-image {
+	    margin: 0 -5px 0 -35px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+	    max-width: 960px;
+	}
+
+	.login-logo {
+		text-align: left;
+	}
+
+	.main-site {
+		padding: 25px 0;
+	}
+
+	.login-body .main-site {
+		padding: 0;
+	}
+	
+	.main-sticky {
+		padding: 0;
+	}
+
+	.register-body .logins-box {
+		padding: 0;
+	}
+
+	.art-digital-marketing .row {
+		flex-direction: row;
+	}
+
+	.services-box {
+	    grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.blogs-box {
+		margin: -15px;
+	}
+	.blogs-box .item {
+		padding: 15px;
+	}
+	.slick-blogs .slick-arrow {
+		position: absolute;
+	}
+
+	.slick-testimonials .slick-arrow {
+		display: block !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	html, body, .body-main, .register-body .main-site, .login-body .main-site {
+		height: 100%;
+	}
+
+	.main-site {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.main-container {
+		width: 100%;
+	}
+
+	.register-body .container,
+	.login-body .container {
+		max-width: 1080px;
+	}
+	.container {
+		max-width: 1210px;
+	}
+
+	.logins-box-content {
+		padding: 35px 50px;
+	}
+
+	footer {
+	    padding-top: 92px;
+	}
+	.footer-contacts li {
+		margin-bottom: 24px;
+	}
+	.footer-bottom {
+		padding-top: 56px;
+	    padding-bottom: 54px;
+	}
+
+	.brands-box {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	}
+
+	.services-box {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.service-box p {
+	    font-size: 17px;
+	}
+
+	.art-digital-marketing .title-box {
+		margin-bottom: 77px;
+	}
+	.art-digital-marketing .title {
+		font-size: 70px;
+	}
+	.art-digital-marketing .title-box p {
+	    font-size: 23px;
+	}
+	.art-digital-marketing .banner-image {
+		margin: 0 -60px;
+	}
+
+	.banner-content .content {
+		font-size: 19px;
+	}
+
+	.projects-box .item {
+		width: 33.3333%;
+	}
+
+	.features-box {
+	    grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	.feature-number {
+		font-size: 60px;
+	}
+	.feature-text {
+		font-size: 23px;
+	}
+}
